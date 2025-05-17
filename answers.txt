@@ -1,0 +1,11 @@
+1. Каким образом можно получить доступ к элементу на веб-странице с помощью JavaScript?
+   С помощью методов getElementById, querySelector, querySelectorAll, getElementsByClassName, getElementsByTagName
+
+2. Что такое делегирование событий и как оно используется для эффективного управления событиями на элементах DOM?
+   Назначение обработчика на родительский элемент, чтобы обрабатывать события от его потомков через проверку event.target
+
+3. Как можно изменить содержимое элемента DOM с помощью JavaScript после его выборки?
+   С помощью свойств textContent, innerHTML, innerText
+
+4. Как можно добавить новый элемент в DOM дерево с помощью JavaScript?
+   Создать элемент через createElement, заполнить и вставить через appendChild, prepend, insertBefore, insertAdjacentHTML
