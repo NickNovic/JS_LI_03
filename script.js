@@ -52,7 +52,9 @@ function calculateTotal() {
  */
 function deleteTransaction(id) {
     const index = transactions.findIndex(t => t.id === id);
-    if (index === -1) return;
+    if (index === -1) {
+        return;
+    }
 
     transactions.splice(index, 1);
 
